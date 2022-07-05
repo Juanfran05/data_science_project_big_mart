@@ -8,7 +8,7 @@ from utils.explore_data import profile_data
 st.title("Exploración inicial 📊")
 
 st.header("Train data")
-st.write("Se presenta el anális exploratorio a partir de pandas profiling.")
+st.write("Se presenta el análisis exploratorio a partir de pandas profiling.")
 train_df = import_train_data()
 profile_data(train_df)
 
