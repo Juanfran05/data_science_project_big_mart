@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import streamlit as st
 
 from utils.import_data import import_train_data

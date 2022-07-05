@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import streamlit as st
 import plotly.graph_objects as go
 
@@ -141,3 +140,18 @@ item_outlet_sales_mean_by_outlet_type_bar.update_layout(title="Item Outlet Sales
                                 xaxis_title="Item_Outlet_Sales",
                                 yaxis_title="Outlet_Type")
 st.plotly_chart(item_outlet_sales_mean_by_outlet_type_bar)
+
+st.subheader("Observaciones")
+st.write("""
+- No se observa una relación relevante entre Item Weight y Item_Outlet_Sales.
+- EL promedio de ventas para alimentos bajos o altos en grasa es similar.
+- Se observa que tampoco existe relación relevante entre la visibilidad y las ventas.
+- El promedio de ventas de las 16 categorias de productos es similar.
+- Se observa que a mayor MRP mayor cantidad de ventas. Probablemente por estrategia comercial: se intentan vender más los productos más rentables.
+- Está en duda si la tienda comercializadora influye significativamente en las ventas.
+- El año en que aperturó la tienda parece no influir en las ventas.
+- El promedio de ventas por tamaño de tienda es similar.
+- De igual modo el promedio de ventas por locación de tienda es similar.
+- El promedio de ventas por tipo de tienda es similar es diferenciado, podría indicar que será una variable relevante en el modelo.
+
+""")

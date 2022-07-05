@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import streamlit as st
 import plotly.graph_objects as go
 
@@ -77,7 +76,7 @@ st.plotly_chart(item_visibility_new_histogram)
 
 
 st.header("Outlet_Size")
-st.write("Se reemplazaron los valores nullos por la moda según el outlet_type")
+st.write("Se reemplazaron los valores nulos por la moda según el outlet_type")
 
 # Outlet_Size fillna with mode by outler_type
 outlet_size_mode = train_df.pivot_table(values='Outlet_Size',

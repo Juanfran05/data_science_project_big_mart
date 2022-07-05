@@ -1,4 +1,3 @@
-import streamlit as st
 import pandas as pd
 
 def import_train_data():
