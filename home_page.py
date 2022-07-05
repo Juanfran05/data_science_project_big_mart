@@ -9,7 +9,7 @@ st.markdown("Esta aplicación es un dashboard de Streamlit que ayuda a \
     explorar y realizar análisis de datos en el dataset de BigMart.")
 
 
-st.markdown("El respositorio de esta app está disponible en [github](https://github.com/Juanfran05/data_science_project_big_mart/tree/main")
+st.markdown("El respositorio de esta app está disponible en [github](https://github.com/Juanfran05/data_science_project_big_mart/tree/main).")
 
 
 # def main_page():
